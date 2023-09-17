@@ -1,0 +1,12 @@
+[
+    {
+      "username": "rahmat.sasongko@yopmail.com",
+      "password": "Dummy123",
+      "invalid_username": "",
+      "title": "rahmat.sasongko@yopmail.com"
+    },
+    {
+      "username": "wrong_user",
+      "password": "pass123465634"
+    }
+]
