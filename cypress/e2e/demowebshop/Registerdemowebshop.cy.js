@@ -3,7 +3,7 @@ const userr = require('../../fixtures/user.json')
 
 describe('test saucedemo', () => {
   beforeEach(() => {
-    cy.visit('https://demowebshop.tricentis.com/register')
+    cy.visit(Cypress.env('register_url'))
   })
   it('email already exists', () => {
     cy.get('#gender-male').click()
